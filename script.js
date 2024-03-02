@@ -23,3 +23,12 @@ playRound = (playerSelection, computerSelection) => {
   } else
     return `Do you even know how to play rock, paper, scissors??? You have to choose either rock, paper, or scissors... not ${playerSelection}`;
 };
+
+playGame = () => {
+  for (i = 0; i < 5; i++) {
+    playerSelection = prompt("Choose rock, paper, or scissors!", "Rock");
+    console.log(playRound(playerSelection, getComputerChoice()));
+  }
+};
+
+playGame();
