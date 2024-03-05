@@ -1,0 +1,28 @@
+body {
+    display: flex;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+#users {
+    display: flex;
+}
+
+#player,
+#computer {
+    width: 300px;
+}
+
+#selections {
+    margin: 12px 0px;
+}
+
+button {
+    background-color: rgb(208, 208, 208);
+    border: 0;
+    padding: 5px 8px;
+    cursor: pointer
+}
